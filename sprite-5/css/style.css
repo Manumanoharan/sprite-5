@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 131.8px;
+     height: 153.5px;
+     margin: 0 auto;
+     overflow: hidden;
+}
+
+.anim{
+    position: relative;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-timing-function: steps(27);
+    animation-iteration-count: infinite;
+    transform: translateX(0);
+}
+
+@keyframes animation{
+    100%{
+transform: translate(-3560px);
+    }
+}
+#img-1{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+#img-2{
+    position: absolute;
+    top: -147px;
+left:923px;
+}
+
+#img-3{
+    position: absolute;
+top:-296px;
+left:1846px;
+}
+
+#img-4{
+    position: absolute;
+top:-446.4px;
+left:2769px;
+}
